@@ -18,13 +18,13 @@
       crossorigin="anonymous"
       defer
     ></script>
-    <script src="js/main.js" defer></script>
+    <script src="js/single.js" defer></script>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">Navbar</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,7 +36,10 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
             <a class="nav-link" href="/index.html">Home</a>
             <a class="nav-link" href="#">Add post</a>
@@ -45,6 +48,8 @@
         </div>
       </div>
     </nav>
-    <h1>Single post butu kaip index su navigacija</h1>
+    <div class="container">
+      <h1 class="display-2">single post</h1>
+    </div>
   </body>
 </html>
