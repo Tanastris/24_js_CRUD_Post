@@ -8,3 +8,7 @@ const singlePost = {
   tags: ["CSS", "Grid Layout"],
   date: "2022-01-09",
 };
+
+// specialus budas gauti visus keys , values arba abu
+
+Object.keys(singlePost);

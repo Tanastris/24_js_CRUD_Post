@@ -51,7 +51,9 @@ function createSinglePostEl(singlePostObj) {
       <p class="card-text">
       ${singlePostObj.body.slice(0, 75)}...
       </p>
-      <a href="single-post.html" class="btn btn-primary card-link">Read more</a>
+      <a href="single-post.html?postId=${
+        singlePostObj.id
+      }" class="btn btn-primary card-link">Read more</a>
     </div>
   </div>`;
 
